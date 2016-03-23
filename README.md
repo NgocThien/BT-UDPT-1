@@ -13,17 +13,17 @@ Yêu cầu **GIT**:
 
 * [X] Có sử dụng GIT.
 * [X] Sử dụng GIT trên 1 branch.
-* [ ] Sử dụng GIT theo Centralized Workflow.
-* [ ] Sử dụng GIT theo Feature Branch Workflow.
+* [X] Sử dụng GIT theo Centralized Workflow.
+* [X] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **thiết kế**:
 
 * [X] Thiết kế theo table.
 * [X] Thiết kế với div.
-* [ ] Thiết kế nâng cao
-    * [ ] Navigation, header, footer, sidebar.
-    * [ ] Các hiệu ứng: hover, focus,...
+* [X] Thiết kế nâng cao
+    * [X] Navigation, header, footer, sidebar.
+    * [X] Các hiệu ứng: hover, focus,...
 * [ ] Thiết kế chạy trên nhiều trình duyệt
     * [ ] IE
     * [ ] Firefox
