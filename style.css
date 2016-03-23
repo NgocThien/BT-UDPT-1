@@ -23,6 +23,55 @@ body{
 	line-height:50px;
 	margin-bottom:10px;
 }
+#menu ul {
+	list-style-type:none;
+	padding-left:0px;
+}
+#menu ul li{
+	float:left;
+	width:249px;
+	border-left:1px solid #000;
+}
+
+#menu ul li a{
+	text-decoration:none;
+	color:#000;
+}
+
+#menu ul li a:hover{
+	color:#FFF;
+}
+
+#wrapper{
+	width:1000px;
+	margin:auto;
+	height:800px;
+	
+}
+
+#left {
+	width:200px;
+	height: 800px;
+	background-color:#F00;
+	float:left;
+}
+
+#main{
+	width:800px;
+	
+	height: 800px;
+	background-color:#CC6;
+	float:left;
+}
+
+
+#buttom{
+	width:1000px;
+	margin:auto;
+	height: 50px;
+	background-color:#0F0;
+	text-align:center;
+}
 
 
 	
