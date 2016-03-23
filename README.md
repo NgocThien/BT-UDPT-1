@@ -1,8 +1,9 @@
 # BT-UDPT-1 - *Name of your app*
 
-**Name of your app** là một bài tập 1 tại môn UDPT.
+BT-UDPT-1 là một bài tập 1 tại môn UDPT.
 
-Thành viên: **Tên và mã số sinh viên thành viên**
+Thành viên: Đinh Minh Tú - 1312676
+			Phạm Ngọc Thiện - 1312554
 
 URL: **URL hosting của bài tập**
 
@@ -10,16 +11,16 @@ URL: **URL hosting của bài tập**
 
 Yêu cầu **GIT**:
 
-* [ ] Có sử dụng GIT.
-* [ ] Sử dụng GIT trên 1 branch.
+* [X] Có sử dụng GIT.
+* [X] Sử dụng GIT trên 1 branch.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **thiết kế**:
 
-* [ ] Thiết kế theo table.
-* [ ] Thiết kế với div.
+* [X] Thiết kế theo table.
+* [X] Thiết kế với div.
 * [ ] Thiết kế nâng cao
     * [ ] Navigation, header, footer, sidebar.
     * [ ] Các hiệu ứng: hover, focus,...
