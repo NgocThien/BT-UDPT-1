@@ -82,7 +82,6 @@ body{
 
 #main2{
 	width:1000px;
-	
 	height: 800px;
 	background-color:#CC6;
 	float:left;
@@ -95,10 +94,7 @@ body{
 	background-color:#0F0;
 	text-align:center;
 }
-#container{
-	width:600px;
-	height: 300px;
-}
+
 #content img {
 	float:left;
 	margin-right : 30px;
@@ -110,7 +106,6 @@ body{
 	text-align:left;
 	background-color:white;
 	overflow: auto;
-  zoom: 1;
 }
 
 	
