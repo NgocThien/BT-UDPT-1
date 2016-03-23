@@ -31,6 +31,7 @@ body{
 	float:left;
 	width:249px;
 	border-left:1px solid #000;
+	position:relative; /* cố định thẻ li mà chúng ta hover*/
 }
 
 #menu ul li a{
@@ -40,6 +41,22 @@ body{
 
 #menu ul li a:hover{
 	color:#FFF;
+}
+
+.submenu{
+	display:none; /* Ẩn một thẻ danh sách */
+	position:absolute;z-index:90; /*menu con nổi lên trên thẻ li đã cố định*/
+	background:#09F;
+	
+}
+
+.submenu li{
+	border-right:1px solid #000;
+	border-bottom:1px dashed #00FF00;
+}
+
+#menu li:hover .submenu{
+	display:block; /*hien menu coon khi hover */
 }
 
 #wrapper{
@@ -65,7 +82,6 @@ body{
 
 #main2{
 	width:1000px;
-	
 	height: 800px;
 	background-color:#CC6;
 	float:left;
@@ -78,10 +94,7 @@ body{
 	background-color:#0F0;
 	text-align:center;
 }
-#container{
-	width:600px;
-	height: 300px;
-}
+
 #content img {
 	float:left;
 	margin-right : 30px;
@@ -93,7 +106,6 @@ body{
 	text-align:left;
 	background-color:white;
 	overflow: auto;
-  zoom: 1;
 }
 
 	
