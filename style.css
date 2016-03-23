@@ -75,13 +75,19 @@ body{
 
 #main{
 	width:800px;
-	
 	height: 800px;
 	background-color:#CC6;
 	float:left;
 }
 
-
+#main2{
+	width:1000px;
+	
+	height: 800px;
+	background-color:#CC6;
+	float:left;
+}
+	
 #buttom{
 	width:1000px;
 	margin:auto;
@@ -89,6 +95,22 @@ body{
 	background-color:#0F0;
 	text-align:center;
 }
-
+#container{
+	width:600px;
+	height: 300px;
+}
+#content img {
+	float:left;
+	margin-right : 30px;
+	padding : 5px;
+}
+#content{
+	width:600px;
+	height: 300px;
+	text-align:left;
+	background-color:white;
+	overflow: auto;
+  zoom: 1;
+}
 
 	
