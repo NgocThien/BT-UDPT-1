@@ -29,7 +29,7 @@ body{
 }
 #menu ul li{
 	float:left;
-	width:249px;
+	width:199px;
 	border-left:1px solid #000;
 	position:relative; /* cố định thẻ li mà chúng ta hover*/
 }
@@ -100,6 +100,7 @@ body{
 	height: 800px;
 	background-color:#CC6;
 	float:left;
+
 }
 
 #anhNhom{
@@ -119,6 +120,24 @@ body{
 	text-align:center;
 }
 
+section {
+	text-align:left;
+	margin-left: 20px;
+}
+
+.contactform{
+	width:100%;	
+}
+
+.contactform th{
+	padding-bottom:5px;
+	text-align:right;
+	}
+.contactform td{
+	padding-left:20px;
+	padding-bottom:10px;
+}
 
 
+	
 	
