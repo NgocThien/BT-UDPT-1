@@ -45,6 +45,24 @@ body{
 	margin-bottom:10px;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
+/*nguồn : google hover effect*/
+.link{
+  transition: 0.3s ease;
+  background: #CCC49F;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #CCC49F;
+  border-bottom: 1px solid #CCC49F;
+  padding: 10px 0;
+  margin: 0 20px;
+}
+/*nguồn : google hover effect*/
+.link:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
 
 #menu ul {
 	list-style-type:none;
