@@ -1,35 +1,76 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+}
+
 body{
 	background-image:url(image/image1.png);
 	font-family:"Times New Roman", Times, serif;
 	font-size:18px;
 	font-style:italic;
 	text-align:center;
+	width:1000px;
+	margin:auto;
 }
 
 #top{
-	width:1000px;
-	margin:auto;
-	height:100px;
-	background-color:#0099FF;
-	
+	height:150px;
+	background-image:url(image/image.jpg);
+	background-repeat:no-repeat;
+	margin-bottom:10px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#textsearch{
+	height:31px;
+	width:200px;
+	border:0px;
+}
+
+#search-button{
+	height:30px;
+	width:34px;
+	border:0;
+	background:url(image/page_search.png) no-repeat;
+	cursor:pointer;
 }
 #menu{
-	width:1000px;
+	height:50px;
+	width:100%;
 	margin:auto;
 	height:50px;
-	background-color:#0F3;
+	background-color:#CCC49F;
 	line-height:50px;
 	margin-bottom:10px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
+/*nguồn : google hover effect*/
+.link{
+  transition: 0.3s ease;
+  background: #CCC49F;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #CCC49F;
+  border-bottom: 1px solid #CCC49F;
+  padding: 10px 0;
+  margin: 0 20px;
+}
+/*nguồn : google hover effect*/
+.link:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
 #menu ul {
 	list-style-type:none;
 	padding-left:0px;
 }
 #menu ul li{
 	float:left;
-	width:199px;
+	width:24%;
 	border-left:1px solid #000;
 	position:relative; /* cố định thẻ li mà chúng ta hover*/
 }
@@ -40,30 +81,35 @@ body{
 }
 
 #menu ul li a:hover{
-	color:#FFF;
+	color:blue;
 }
 
 .submenu{
 	display:none; /* Ẩn một thẻ danh sách */
 	position:absolute;z-index:90; /*menu con nổi lên trên thẻ li đã cố định*/
-	background:#09F;
-	
+	background-color: #CCC49F;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*tham khảo http://www.w3schools.com/ */
+	text-align:center;
 }
 
-.submenu li{
+.submenu a{
+    display: block;
 	border-right:1px solid #000;
 	border-bottom:1px dashed #00FF00;
 }
+
 
 #menu li:hover .submenu{
 	display:block; /*hien menu coon khi hover */
 }
 
 #wrapper{
-	width:1000px;
+	width:100%;
 	margin:auto;
 	height:800px;
-	
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	margin-bottom:10px;
 }
 
 #content img {
@@ -72,7 +118,7 @@ body{
 	padding : 5px;
 }
 #content{
-	width:600px;
+	width:60%;
 	height: 300px;
 	text-align:left;
 	background-color:white;
@@ -82,25 +128,35 @@ body{
 
 
 #left {
-	width:200px;
+	width:20%;
 	height: 800px;
 	background-color:#F00;
 	float:left;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 #main{
-	width:800px;
+	width:80%;
 	
 	height: 800px;
 	background-color:#CC6;
 	float:left;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 #main2{
-	width:1000px;
+	width:100%;
 	height: 800px;
 	background-color:#CC6;
 	float:left;
-
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	margin-bottom:10px;
+}
+#buttom{
+	width:100%;
+	height: 50px;
+	background-color:#0F0;
+	text-align:center;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 #anhNhom{
@@ -110,22 +166,21 @@ body{
 	border-radius:100px;
     width:600px;
     height:400px;
+	
 }
 
-#buttom{
-	width:1000px;
-	margin:auto;
-	height: 50px;
-	background-color:#0F0;
-	text-align:center;
-}
+
 
 section {
 	text-align:left;
 	margin-left: 20px;
 }
-
+section p{
+	margin-bottom:30px;
+	margin-top:30px;
+}
 .contactform{
+	magrin: 10px;
 	width:100%;	
 }
 
@@ -139,5 +194,37 @@ section {
 }
 
 
+#anhNhom{
+	padding:3px;
+	border:3px solid #999999;
+	box-shadow: 15px 15px 15px rgba(0,0,0,.5);
+	border-radius:100px;
+    width:600px;
+    height:400px;
+}
+
+#hinhdaidien{
+	padding:3px;
+	border:3px solid #999999;
+	box-shadow: 15px 15px 15px rgba(0,0,0,.5);
+	border-radius:100px;
+	width:200px;
+    height:120px;
+}
+
+
+
+.icon{
+    width:16px;
+    height:16px;
+}
+
+h2{
+	font-size:36px;
+	margin: 50px 0px 0px;
+}
+
+
+	
 	
 	
