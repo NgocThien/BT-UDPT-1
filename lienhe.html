@@ -2,58 +2,72 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Bài Tập Thiết Kế</title>
+        <title>Liên hệ</title>
         <link rel =" stylesheet" type = "text/css" href = "style.css"/>
     </head>
     
     <body>
-    	<div id = "top">banner</div>
-        <div id = "menu">
+    	<div id = "top">
+        	<div style = "float:left;width:70px;height:70px;margin:50px 0px 0px 35px; border:1px solid #000;">
+            <a href = "BT.html"><img src="image/image2.png" /></a>
+            </div>
+             
+            <div id ="search-box" style = "float:right;width:200px;height:31px;margin:80px 10px 0px 35px;border:1px solid #000;">
+            	<form id = "search-form">
+                	<input type="text" placeholder="Search for here..." / id = "textsearch"/>
+                    <button type = "submit" id = "search-button"> </button>               
+				</form>     
+            </div>
+        </div>                                                
+          <div id = "menu">
         	<ul>
-            	<li style = "border-left:none;"><a class="link" href = "BT.html">Trang chủ</a></li>
-                <li><a class="link" href = "#">Thành viên</a>
+            	<li style = "border-left:none;"><img class = "icon" src="image/home.png"><a class="link" href = "BT.html">Trang chủ</a></li>
+                <li><img class = "icon" src="image/users.png" /><a class="link" href = "#">Thành viên</a>
                 	<div class = "submenu">
                     	<a href = "1312554.html">Phạm Ngọc Thiện</a>
                         <a href = "1312676.html">Đinh Minh Tú</a>
                     </div>
                 </li>
-                <li><a href class="link" = "#">Học tập</a>
+                <li><img class = "icon" src="image/notes_edit.png" /><a href class="link" = "#">Học tập</a>
                 	<div class = "submenu">
                     	<a href = "#">Ứng dụng phân tán</a>
                         <a href = "#">Lập trình web</a>
                         <a href = "#">Tìm hiểu github</a>
                     </div>
-                <li><a class="link" href = "lienhe.html">Liên hệ</a></li>
+                </li>
+               <li><img class = "icon" src="image/info.png" /><a class="link" href = "lienhe.html">Liên hệ</a></li>
             </ul>
         </div>
         <div id = "wrapper" >        
             <div id = "main2">
             <section>
             	<h1><center>Liên hệ - Đóng góp<center></h1>
-                <p>Các bạn thể liên hệ nhóm qua email : <a href = "dmtu29@gmail.com">dmtu29@gmail.com</a>  <br /><br /></p>
+                <p>Các bạn thể liên hệ nhóm qua email : <a href = "dmtu29@gmail.com">dmtu29@gmail.com</a></p>
 				
             </section>
 				<section>
-				<p>Hoặc liên hệ nhóm theo form dưới đây :</p>
+				<p>Hoặc liên hệ nhóm theo form dưới đây :<br></p>
+
+				
                  <form name"frmMain" method="GET" action="#">
                 <table class="contactform"
             		              
              	   
                         <tr>
                             <th><label for="hoten">Họ và tên </label> </th>
-                        	<td><input type="text" id="hoten" name="hoten" > </td>	
+                        	<td><input type="text" id="hoten" name="hoten" size="30"> </td>	
                         </tr>
                         <tr>
                             <th><label for="sdt">Số điện thoại </label> </th>
-                        	<td><input type="text" id="sdt" name="sdt" > </td>	
+                        	<td><input type="text" id="sdt" name="sdt" size="30"> </td>	
                         </tr>
                         <tr>
                             <th><label for="email">Địa chỉ email </label> </th>
-                        	<td><input type="text" id="email" name="email" > </td>	
+                        	<td><input type="text" id="email" name="email" size="30"> </td>	
                         </tr>
                         <tr>
                             <th><label for="tieude">Tiêu đề </label> </th>
-                        	<td><input type="text" id="tieude" name="tieude" > </td>	
+                        	<td><input type="text" id="tieude" name="tieude" size="40" > </td>	
                         </tr>
                         <tr>
                             <th><label for="noidung">Nội dụng</label> </th>
@@ -69,7 +83,7 @@
                	</section>
             </div>
         </div>
-        <div id = "buttom">Copyright Pham Ngoc Thien </div>
+        <div id = "buttom">Copyright Pham Ngoc Thien and Dinh Minh Tu</div>
         
     </body>
 </html>
