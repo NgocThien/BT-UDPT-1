@@ -109,6 +109,7 @@ body{
 
 #wrapper{
 	width:100%;
+	position: relative;
 	margin:auto;
 	height:800px;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
@@ -193,9 +194,19 @@ body{
 
 #comment{
 	width: 600px;
-	height: 120px;
-	
-	margin: 122px 0px 0px 86px;
+	height: 150px;
+    margin-left:5%;
+	position: Absolute ;
+	bottom:0px;
+	text-align:center;
+}
+#comment2{
+	width: 600px;
+	height: 150px;
+    margin-left:15%;
+	position: Absolute ;
+	bottom:0px;
+	text-align:center;
 }
 
 #avatar{
@@ -235,7 +246,7 @@ body{
 }
 
 #buttom{
-	width:1000px;
+	width:100%;
 	height: 50px;
 	background-color:#0F0;
 	padding-top:10px;
