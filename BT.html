@@ -3,7 +3,6 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Bài Tập Thiết Kế</title>
-        <link rel ="shortcut icon" type ="image/x-icon" href = "image/image3.ico" />
         <link rel =" stylesheet" type = "text/css" href = "style.css"/>
     </head>
     
@@ -13,7 +12,7 @@
             <a href = "BT.html"><img src="image/image2.png" /></a>
             </div>
              
-            <div id ="search-box" style = "float:right;width:200px;height:31px;margin:80px 10px 0px 35px;border:1px solid #000;">
+            <div id ="search-box" style = "float:right;width:260px;height:31px;margin:110px -49px 0px 63px;>
             	<form id = "search-form">
                 	<input type="text" placeholder="Search for here..." / id = "textsearch"/>
                     <button type = "submit" id = "search-button"> </button>               
@@ -43,27 +42,45 @@
         
         <div id = "wrapper" >
         	<div id = "left">
-            	<ul>
-                	<li>Thành viên
-                    		<ul>
-                            	<li>Phạm Ngọc Thiện</li>
-                                <li>Đinh Minh Tú</li>
+            	<div id = "menu-left">
+                	<ul>
+                    	<li><a href = "#">Thành viên</a>
+                        	<ul class = "submenu1">
+                            	<li><a href = "1312554.html">Phạm Ngọc Thiện</a></li>
+                                <li><a href = "1312676.html">Đinh Minh Tú</a></li>
                             </ul>
-                     </li>
-                    <li>Học tập</li>
-                </ul>
+                        </li>
+                        <li><a href = "#">Học tập</a>
+                        	<ul class = "submenu1">
+                            	<li><a href = "#">Ứng dụng phân tán</a></li>
+                                <li><a href = "#">Lập trình web</a></li>
+                                <li><a href = "#">Tìm hiểu GitHub</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
+          
             
-            <div id = "main" >
+            <div id = "main">
             	<h2 > Ảnh nhóm</h2> <br/>
             	<img id = "anhNhom" src = "image/hinhnhom.jpg" alt = "Ảnh nhóm" usemap="#Map" />
                 	<map id="map1" name="Map">
-                <area shape="circle" coords="160,135,70" alt="Thien" href="1312554.html" />
-                <area shape="circle" coords="400,170,80" alt="Tu" href="1312676.html" />
-            	</map>
+                        <area shape="circle" coords="160,135,70" alt="Phuc" href="1312554.html" />
+                        <area shape="circle" coords="400,170,80" alt="Sang" href="1312676.html" />
+           			</map>
+            <div id = "comment">
+                 	<img id = "avatar" src ="image/avatar.png" alt = "Comment" height = "60" width = 60>
+              		<form>
+                    	<textarea name = "textmess" id = "textmess" placeholder = "Enter comment here..."></textarea>
+            			<input type = "text" name ="textname" id = "textname" placeholder = "Your name...">
+                        <input name="submit" type="submit"  id="submit" value="Post Comment">
+                    </form>
+                 </div>     
             </div>
         </div>
-        <div id = "buttom">Copyright Pham Ngoc Thien and Dinh Minh Tu</div>
-        
+        <div id = "buttom"><p>Copyright © Pham Ngoc Thien and Dinh Minh Tu</p>
+        </div>
+       
     </body>
 </html>
