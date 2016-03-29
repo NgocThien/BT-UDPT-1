@@ -1,9 +1,9 @@
-# BT-UDPT-1 - *Name of your app*
+# BT-UDPT-1 - *BT-UDPT-1*
 
-BT-UDPT-1 là một bài tập 1 tại môn UDPT.
+**BT-UDPT-1** là một bài tập 1 tại môn UDPT.
 
-Thành viên: Đinh Minh Tú - 1312676
-			Phạm Ngọc Thiện - 1312554
+Thành viên: **Đinh Minh Tú - 1312676
+			Phạm Ngọc Thiện - 1312554**
 
 URL: **URL hosting của bài tập**
 
@@ -11,19 +11,19 @@ URL: **URL hosting của bài tập**
 
 Yêu cầu **GIT**:
 
-* [X] Có sử dụng GIT.
-* [X] Sử dụng GIT trên 1 branch.
-* [X] Sử dụng GIT theo Centralized Workflow.
-* [X] Sử dụng GIT theo Feature Branch Workflow.
+* [x] Có sử dụng GIT.
+* [x] Sử dụng GIT trên 1 branch.
+* [x] Sử dụng GIT theo Centralized Workflow.
+* [x] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **thiết kế**:
 
-* [X] Thiết kế theo table.
-* [X] Thiết kế với div.
-* [X] Thiết kế nâng cao
-    * [X] Navigation, header, footer, sidebar.
-    * [X] Các hiệu ứng: hover, focus,...
+* [x] Thiết kế theo table.
+* [x] Thiết kế với div.
+* [x] Thiết kế nâng cao
+    * [x] Navigation, header, footer, sidebar.
+    * [x] Các hiệu ứng: hover, focus,...
 * [ ] Thiết kế chạy trên nhiều trình duyệt
     * [ ] IE
     * [ ] Firefox
