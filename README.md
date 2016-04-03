@@ -5,7 +5,7 @@
 Thành viên: **Đinh Minh Tú - 1312676
 			Phạm Ngọc Thiện - 1312554**
 
-URL: **URL hosting của bài tập**
+URL: **http://bttkdmtupmthien.esy.es/index.html**
 
 ## Yêu cầu
 
