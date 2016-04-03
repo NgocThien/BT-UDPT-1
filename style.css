@@ -41,6 +41,7 @@ body{
 #menu{
 	height:50px;
 	width:100%;
+	max-width : 1000px;
 	margin:auto;
 	text-align:center;
 	background-color:#CCC49F;
@@ -91,9 +92,11 @@ body{
 	display:none; /* Ẩn một thẻ danh sách */
 	position:absolute;z-index:90; /*menu con nổi lên trên thẻ li đã cố định*/
 	background-color: #CCC49F;
-    min-width: 100%;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*tham khảo http://www.w3schools.com/ */
 	text-align:center;
+	max-width : 750px;
+	
 }
 
 .submenu a{
@@ -122,7 +125,7 @@ body{
 }
 #content{
 	width:60%;
-	height: 300px;
+	height: 500px;
 	text-align:left;
 	background-color:#F0F7CE;
 	margin: 30px 0px 0px 0px;
@@ -140,7 +143,7 @@ body{
 }
 
 #menu-left{
-	width:200px;
+	width:90%;
 	margin: 10px 0px 0px 14px;	
 	border:1px solid #000;
 	border-radius:8px;
@@ -195,7 +198,7 @@ body{
 }
 
 #comment{
-	width: 600px;
+	width: 70%;
 	height: 150px;
     margin-left:5%;
 	position: Absolute ;
@@ -203,7 +206,7 @@ body{
 	text-align:center;
 }
 #comment2{
-	width: 600px;
+	width: 60%;
 	height: 150px;
     margin-left:15%;
 	position: Absolute ;
@@ -216,7 +219,7 @@ body{
 }
 
 #textmess{
-	width: 525px;
+	width: 88%;
 	height: 60px;
 	border: 1px solid #CCC;
 	border-radius: 5px;
@@ -261,7 +264,7 @@ body{
 	border:3px solid #999999;
 	box-shadow: 15px 15px 15px rgba(0,0,0,.5);
 	border-radius:100px;
-    width:600px;
+    width:60%;
     height:400px;
 	
 }
@@ -291,22 +294,12 @@ section p{
 }
 
 
-#anhNhom{
-	padding:3px;
-	border:3px solid #999999;
-	box-shadow: 15px 15px 15px rgba(0,0,0,.5);
-	border-radius:100px;
-    width:600px;
-    height:500px;
-}
 
 #hinhdaidien{
 	padding:3px;
-	border:3px solid #999999;
-	box-shadow: 15px 15px 15px rgba(0,0,0,.5);
-	border-radius:100px;
-	width:200px;
-    height:120px;
+	box-shadow: 15px 15px 15px rgba(0,0,0,0.3);	
+	width:50%;
+    height:350px ;
 }
 
 
